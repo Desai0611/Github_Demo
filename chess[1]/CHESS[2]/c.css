@@ -1,0 +1,141 @@
+body{
+    margin-top: 10px;
+}
+div{
+    border: 1px solid forestgreen;
+    height: 70px;
+    width: 70px;
+}
+.c{
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid black;
+    position: relative;
+    left: 325px;
+}
+.chess{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    border: 30px solid rgb(223, 218, 146);
+    padding: 5px;
+}
+.r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8{
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: start;
+    width: 560px;
+    height: 70px;
+}
+#r1b1,#r1b3,#r1b5,#r1b7,
+#r2b2,#r2b4,#r2b6,#r2b8,
+#r3b1,#r3b3,#r3b5,#r3b7,
+#r4b2,#r4b4,#r4b6,#r4b8,
+#r5b1,#r5b3,#r5b5,#r5b7,
+#r6b2,#r6b4,#r6b6,#r6b8,
+#r7b1,#r7b3,#r7b5,#r7b7,
+#r8b2,#r8b4,#r8b6,#r8b8{
+    background-color: rgb(223, 218, 146);
+}
+#r1b2,#r1b4,#r1b6,#r1b8,
+#r2b1,#r2b3,#r2b5,#r2b7,
+#r3b2,#r3b4,#r3b6,#r3b8,
+#r4b1,#r4b3,#r4b5,#r4b7,
+#r5b2,#r5b4,#r5b6,#r5b8,
+#r6b1,#r6b3,#r6b5,#r6b7,
+#r7b2,#r7b4,#r7b6,#r7b8,
+#r8b1,#r8b3,#r8b5,#r8b7{
+    background-color: forestgreen;
+}
+#chesspic{
+    font-size: 45px;
+    padding-top: 10px;
+}
+.r1,.r2{
+    text-align: center;
+    color: rgb(28, 26, 26);
+}
+.r7,.r8{
+    text-align: center;
+    color: white;
+}
+.h1{
+    position: relative;
+    bottom: 655px;
+    left: 390px;
+}
+.h2{
+    position: relative;
+    bottom: 702px;
+    left: 460px;
+}
+.h3{
+    position: relative;
+    bottom: 750px;
+    left: 530px;
+}
+.h4{
+    position: relative;
+    bottom: 797px;
+    left: 600px;
+}.h5{
+    position: relative;
+    bottom: 844px;
+    left: 673px;
+}
+.h6{
+    position: relative;
+    bottom: 892px;
+    left: 744px;
+}
+.h7{
+    position: relative;
+    bottom: 940px;
+    left: 810px;
+}
+.h8{
+    position: relative;
+    bottom: 987px;
+    left: 880px;
+}
+.h9{
+    position: relative;
+    bottom: 983px;
+    left: 340px;
+}
+.h10{
+    position: relative;
+    bottom: 960px;
+    left: 340px;
+}
+.h11{
+    position: relative;
+    bottom: 937px;
+    left: 340px;
+}.h12{
+    position: relative;
+    bottom: 914px;
+    left: 340px;
+}
+.h13{
+    position: relative;
+    bottom: 891px;
+    left: 340px;
+}
+.h14{
+    position: relative;
+    bottom: 868px;
+    left: 340px;
+}
+.h15{
+    position: relative;
+    bottom: 845px;
+    left: 340px;
+}
+.h16{
+    position: relative;
+    bottom: 822px;
+    left: 340px;
+}
